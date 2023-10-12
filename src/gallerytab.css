@@ -1,0 +1,19 @@
+.gallerycontainer{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap
+}
+.smallimage{
+    width: 60px;
+    height:35px;
+    margin:10px;
+    
+}
+.tabclass{
+    opacity: 0.5;
+    border-width:3px solid red;
+}
+#root{
+    background-image: linear-gradient(rgb(92, 222, 204),rgb(80, 27, 43));
+    height:100vh;
+}
