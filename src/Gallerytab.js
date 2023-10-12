@@ -1,8 +1,7 @@
 import './gallerytab.css'
 const Gallerytab=(props)=>{
     const{clickTabItem,gallerydetail,isActive}=props
-    
-    const{imgurl,galleryid}=gallerydetail
+     const{imgurl,galleryid}=gallerydetail
      const onClickTabItem=()=>{
         clickTabItem(galleryid)
      }
